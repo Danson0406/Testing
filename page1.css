@@ -1,0 +1,129 @@
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: url('background1.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#day {
+    text-shadow: 0 0 3px #470808, 0 0 5px #6e0404;
+}
+
+#one {
+    text-shadow: 0 0 3px #267f8f, 0 0 5px #036b7e;
+}
+
+#table {
+    max-width: 50px;
+    width: 20%; 
+    margin-top: -10px;
+    margin-left: 555px;
+}
+
+#table:hover {
+    transform: scale(1.5);
+    transition: transform .2s;
+}
+
+#table2 {
+    max-width: 50px;
+    width: 20%; 
+    margin-top: -283px;
+    margin-left: 930px;
+}
+
+#table2:hover {
+    transform: scale(1.5);
+    transition: transform .2s;
+}
+
+#table3 {
+    max-width: 50px;
+    width: 20%; 
+    margin-top: 5px;
+    margin-left: 735px;
+}
+
+#table3:hover {
+    transform: scale(1.5);
+    transition: transform .2s;
+}
+
+#jan {
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(247, 247, 247);
+}
+
+#wew {
+    font-weight: bolder;
+    font-family: cursive;
+    text-align: center;
+    font-size: 13px;
+    color: white;
+}
+
+#wow {
+    color: red;
+    text-shadow: -1px 1px #ffffff,
+                          1px 1px #fff,
+                         -1px -1px #fff,
+                        1px -1px #fff;
+    text-decoration: underline;
+}
+
+#one {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-family:cursive;
+    font-size: 25px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#page1 {
+    backdrop-filter: blur(2px);
+    text-shadow: 0 0 5px #080808, 0 0 7px #080808;;
+    font-weight: lighter;
+    color: rgb(255, 255, 255) ;
+    font-size: 19px;
+    width:450px;
+    margin-left: 20px;
+}
+
+#page {
+    text-shadow: 0 0 3px #00d9ff, 0 0 5px #036b7e;
+    font-family: Georgia;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    margin-top: -410px;
+    margin-left: 20px;
+}
+
+#page2 {
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    color: rgb(255, 255, 255) ;
+    margin-left: 20px;
+
+}
+
+#page3 {
+    text-shadow: 1px 1px rgb(10, 60, 94);
+    font-family: verdana;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin-top: -290px;
+    margin-left: 20px;
+}
+
+div.icon {
+    margin-left: 1210px;
+    margin-top: 170px;
+}
