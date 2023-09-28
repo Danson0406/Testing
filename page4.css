@@ -11,58 +11,61 @@ body {
     background-size: cover;
 }
 
-#day {
+.weekend {
     text-shadow: 0 0 3px #470808, 0 0 5px #6e0404;
 }
 
-#one {
+.month {
     text-shadow: 0 0 3px #267f8f, 0 0 5px #036b7e;
+    font-weight: lighter;
+    font-family: verdana;
+    font-size: 20px;
 }
 
-#table {
+.table {
     max-width: 50px;
     width: 20%; 
-    margin-top: -10px;
+    margin-top: 100px;
     margin-left: 555px;
 }
 
-#table:hover {
+.table:hover {
     transform: scale(1.5);
     transition: transform .2s;
 }
 
-#table2 {
+.table2 {
     max-width: 50px;
     width: 20%; 
-    margin-top: -283px;
+    margin-top: -212px;
     margin-left: 930px;
 }
 
-#table2:hover {
+.table2:hover {
     transform: scale(1.5);
     transition: transform .2s;
 }
 
-#table3 {
+.table3 {
     max-width: 50px;
     width: 20%; 
-    margin-top: -25px;
+    margin-top: 50px;
     margin-left: 735px;
 }
 
-#table3:hover {
+.table3:hover {
     transform: scale(1.5);
     transition: transform .2s;
 }
 
-#jan {
+.week {
     font-family: arial;
     font-size: 20px;
     text-align: center;
     color: rgb(247, 247, 247);
 }
 
-#wew {
+.days {
     font-weight: bolder;
     font-family: cursive;
     text-align: center;
@@ -70,16 +73,16 @@ body {
     color: white;
 }
 
-#wow {
+.holiday {
     color: red;
     text-shadow: -1px 1px #ffffff,
                           1px 1px #fff,
                          -1px -1px #fff,
                         1px -1px #fff;
-    text-decoration: underline;                    
+    text-decoration: underline;
 }
 
-#one {
+div.month {
     margin-top: 50px;
     margin-bottom: 10px;
     font-family:cursive;
@@ -88,42 +91,45 @@ body {
     color: whitesmoke;
 }
 
-#page1 {
+.para {
     backdrop-filter: blur(2px);
     text-shadow: 0 0 5px #080808, 0 0 7px #080808;;
     font-weight: lighter;
     color: rgb(255, 255, 255) ;
     font-size: 19px;
     width:450px;
-    margin-left: 30px;
 }
 
-#page {
+.title {
     text-shadow: 0 0 3px #00d9ff, 0 0 5px #036b7e;
     font-family: Georgia;
     color: rgb(255, 255, 255);
-    font-size: 45px;
-    margin-top: -410px;
-    margin-left: 30px;
+    font-size: 35px;
+    
+    
 }
 
-#page2 {
+.creator {
     text-shadow: 2px 2px rgb(0, 0, 0);
     color: rgb(255, 255, 255) ;
-    margin-left: 30px;
+    
+}
+
+div.article {
+    margin-top: -400px;
+    margin-left: 10px;
 
 }
 
-#page3 {
+.quarter {
     text-shadow: 1px 1px rgb(10, 60, 94);
     font-family: verdana;
     color: rgb(255, 255, 255);
     font-size: 15px;
-    margin-top: -280px;
-    margin-left: 30px;
+    margin-top: -268px;
 }
 
-div.icon2 {
+.prev {
     margin-left: 555px;
-    margin-top: 178px;
+    margin-top: 120px;
 }

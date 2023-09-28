@@ -4,7 +4,7 @@ body, html {
 }
 
 body {
-    background-image: url('background3.jpg');
+    background-image: url('background1.jpg');
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -37,7 +37,7 @@ body {
 .table2 {
     max-width: 50px;
     width: 20%; 
-    margin-top: -242px;
+    margin-top: -212px;
     margin-left: 930px;
 }
 
@@ -93,7 +93,7 @@ div.month {
 
 .para {
     backdrop-filter: blur(2px);
-    text-shadow: 0 0 5px #080808, 0 0 7px #080808;;
+    text-shadow: 0 0 5px #080808, 0 0 7px #080808;
     font-weight: lighter;
     color: rgb(255, 255, 255) ;
     font-size: 19px;
@@ -129,12 +129,7 @@ div.article {
     margin-top: -280px;
 }
 
-.next {
+div.next {
     margin-left: 1210px;
     margin-top: 150px;
-}
-
-.prev {
-    margin-left: 555px;
-    margin-top: -60px;
 }
